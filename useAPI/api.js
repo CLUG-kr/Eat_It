@@ -9,9 +9,7 @@ $(function(){
           "Accesstoken":"1k1SGHbvI8J5DdwTIScbntbZpWnTvb7yFWJr0xZ0S1qxpkSlBA"
         },
         data: {
-          "type": "campuses",
-          "keyword": "중앙대학교 서울캠퍼스",
-          "date": "2019-01-21"
+          "date": "2019-01-23"
         },
         success:function(data){
             $('#show').html(JSON.stringify(data));
